@@ -1,0 +1,34 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        //1
+        // זהו אוסף של משתנים (הנקראים שדות), מאפיינים ופונקציות המאוגדים למבנה לוגי אחד ופועלים יחד. בזכות המחלקות יש תיאום גדול יותר בין כול המשתנים והפונקציות.
+
+        //2
+        // זהו בעצם אובייקט חדש שאנחנו יוצרים לאותה מחלקה. למשל בן אדם חדש במחלקת אנשים.
+
+        //3
+        //Person person1= new Person();
+
+        //4
+        Circle circle1= new Circle();
+        Circle circle2= new Circle();
+        circle1.radius=5.4;
+        circle2.radius=8.7;
+        circle1.printSize();
+        circle2.printSize();
+
+        //5
+
+        Person person1= new Person();
+        person1.address="Beer Sheva";
+        person1.id="shay";
+        person1.yearOfBirth=1992;
+        person1.sayHello();
+        person1.printHowOldAmI();
+        person1.printAddress();
+
+    }
+}
