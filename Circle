@@ -1,0 +1,10 @@
+package com.company;
+
+public class Circle {
+    public double radius;
+
+    public void printSize()
+    {
+        System.out.println(3.14* Math.pow(radius,2));
+    }
+}
